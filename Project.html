@@ -1,0 +1,92 @@
+<!doctype html>
+<title>Great Living Chola Temples</title>
+<style>
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header ads"
+    "nav article article"
+    "nav footer footer";
+  grid-template-rows: 60px 1fr 50px;  
+  grid-template-columns: 20% 1fr 0%;
+  grid-row-gap: 1px;
+  grid-column-gap: 1px;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  }  
+header, footer, article, nav, div {
+  padding: 1em;
+  background: rgba(36, 140, 178, 0.515);
+  }
+#pageHeader {
+  grid-area: header;
+  }
+#pageFooter {
+  grid-area: footer;
+  }
+#mainArticle { 
+  grid-area: article;      
+  }
+#mainNav { 
+  grid-area: nav; 
+  }
+@media all and (max-width: 575px) {
+  body { 
+    grid-template-areas: 
+      "header"
+      "article"
+      "nav"
+      "footer";
+    grid-template-rows: 80px 1fr 70px 1fr 70px;  
+    grid-template-columns: 1fr;
+ }
+}
+#pageHeader {
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 16px;
+}
+hr.hrs {
+  border: 3px solid white;
+  border-radius: 5px;
+}
+#img1 {
+  height: 60vh;
+  width: 38vh;
+}
+#pageFooter {
+font-weight: bold;
+text-align: center;
+font-size: 15px;
+}
+</style>
+<body>
+  <header id="pageHeader">Great Living Chola Temples
+</header>
+  <article id="mainArticle">
+    <h2>Great Living Chola Temples</h2>
+    <hr class="hrs">
+    <p>The Great Living Chola Temples is a UNESCO World Heritage Site designation for a group of Chola dynasty era Hindu temples in the Indian state of Tamil Nadu.[1][2] Completed between early 11th and the 12th century CE</p>
+    <h2>World Heritage Site recognition</h2>
+    <hr class="hrs">
+    <p>The Temple Complex at Thanjavur was recognised in 1987. The Temple Complex at Gangaikonda Cholapuram and the Airavatesvara Temple Complex were added as extensions to the site in 2004. The criteria for inclusion in the "Great Living Chola Temples" site are:
+    </p>
+    <ul>
+      <li>Criterion (i): The three Chola temples of Southern India represent an outstanding creative achievement in the architectural conception of the pure form of the Dravidan type of temple.</li>
+    <li>Criterion (ii): The Brihadisvara Temple at Thanjavur became the first great example of the Chola temples, followed by a development of which the other two properties also bear witness.</li>
+      <li>Criterion (iii): The three Great Chola Temples are an exceptional and the most outstanding testimony to the development of the architecture of the Chola Empire and the Tamil civilization in Southern India.</li>
+      <li>Criterion (iv): The Great Chola temples at Thanjavur, at Gangaikondacholapuram and Darasuram are outstanding examples of the architecture and the representation of the Chola ideology.</li>
+  </ul>
+  <h2>Temples</h2>
+  <hr class="hrs">
+  <p>Thanjavur is about 350 kilometres (220 mi) southwest of Chennai. Gangaikonda Cholapuram and Darasuram are respectively about 70 kilometres (43 mi) and about 40 kilometres (25 mi) to its northeast.</p>
+  </article>
+  <nav id="mainNav">
+    <img src="A_collage_of_Great_living_Chola_temples_UNESCO_heritage_site.jpg" id="img1">
+  <img src="270px-Brihadeeswara_Temple_Entrance_Gopurams,_Thanjavur.jpg">
+  </nav>
+  <footer id="pageFooter">Designed And Developed By Thiyagarajan V</footer>
+</body>
